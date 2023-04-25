@@ -6,6 +6,8 @@ TagManager:
   tags:
   - goob
   - spawn
+  - platform
+  - occupied
   layers:
   - Default
   - TransparentFX
