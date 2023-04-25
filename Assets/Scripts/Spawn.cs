@@ -24,7 +24,8 @@ public class Spawn : MonoBehaviour
     {
         if (IsAbleToSpawn())
         {
-            GameObject go = Instantiate(_prefab, transform.position, Quaternion.identity);
+            // GameObject go = Instantiate(_prefab, transform.position,Quaternion.identity);
+            GameObject go = Instantiate(_prefab, this.transform);
             go.GetComponent<ArriveHome>().SetDestination(_homeLocation);
             _count++;
         }
