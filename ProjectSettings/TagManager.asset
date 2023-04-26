@@ -8,6 +8,7 @@ TagManager:
   - spawn
   - platform
   - occupied
+  - turret
   layers:
   - Default
   - TransparentFX
