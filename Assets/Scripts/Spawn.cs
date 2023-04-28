@@ -9,7 +9,7 @@ public class Spawn : MonoBehaviour
     [SerializeField] private GameObject _prefab;
     [SerializeField] private Transform _homeLocation;
     [SerializeField] private float _spawnDelay;
-    private float _spawnRate = 0.3f;
+    private float _spawnRate = 3f;
     private int _count;
     private int _maxCount = 10;
     

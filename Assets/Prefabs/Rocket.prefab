@@ -266,7 +266,7 @@ BoxCollider:
   m_GameObject: {fileID: 5977019458999684295}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.024137193, y: 0.02104351, z: 0.023911037}
   m_Center: {x: 0, y: 0.010521755, z: 0}
@@ -281,7 +281,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.05
   m_Center: {x: 0, y: 0.00077465776, z: 0}
 --- !u!114 &268904466
 MonoBehaviour:
@@ -297,3 +297,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _body: {fileID: 5489270377551027214}
   _guns: {fileID: 7024019010128265564}
+  TurretProperities: {fileID: 11400000, guid: 95a8324c7657edb4890daa07efacc0b8, type: 2}

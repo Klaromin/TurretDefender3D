@@ -184,6 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2545142080065939768}
   - component: {fileID: -3747892327369917055}
+  - component: {fileID: 2788929642609649572}
   m_Layer: 0
   m_Name: Gatling
   m_TagString: turret
@@ -221,6 +222,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.2245642, z: 1}
   m_Center: {x: 0, y: 0.5618598, z: 3.3886866e-16}
+--- !u!135 &2788929642609649572
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2889615033536017282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.5
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!1 &2997487231533453680
 GameObject:
   m_ObjectHideFlags: 0

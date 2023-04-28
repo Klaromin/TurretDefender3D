@@ -72,6 +72,7 @@ public class UIInterface : MonoBehaviour
                 _focusObj.transform.position = transformPosition;
                 
                 _focusObj.GetComponent<Collider>().enabled = true;
+                _focusObj.GetComponent<SphereCollider>().enabled = true;
             }
             else
             {
@@ -90,6 +91,7 @@ public class UIInterface : MonoBehaviour
 
         _focusObj = Instantiate(_itemPrefab, hit.point, _itemPrefab.transform.rotation);
         _focusObj.GetComponent<Collider>().enabled = false;
+        _focusObj.GetComponent<SphereCollider>().enabled = false;
     }
     
     private void CreateRocket()

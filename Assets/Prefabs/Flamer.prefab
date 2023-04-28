@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1863226349315345326}
   - component: {fileID: 4485432636273475428}
   - component: {fileID: 5348943989151711214}
+  - component: {fileID: 3848739745474148514}
   m_Layer: 0
   m_Name: Flamer
   m_TagString: Untagged
@@ -100,6 +101,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02758536, y: 0.02292718, z: 0.0273269}
   m_Center: {x: 0, y: 0.005731794, z: 3.8254307e-18}
+--- !u!135 &3848739745474148514
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684014845059767985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.045
+  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &3836569985129990726
 GameObject:
   m_ObjectHideFlags: 0
