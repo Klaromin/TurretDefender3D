@@ -73,6 +73,7 @@ public class UIInterface : MonoBehaviour
                 
                 _focusObj.GetComponent<Collider>().enabled = true;
                 _focusObj.GetComponent<SphereCollider>().enabled = true;
+
             }
             else
             {

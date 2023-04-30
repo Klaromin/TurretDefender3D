@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ab7a18c6f9958442be836ac0df53e07, type: 3}
-  m_Name: Rocket Properity
+  m_Name: Gatling Properity
   m_EditorClassIdentifier: 
-  Damage: 10
-  Accuracy: 80
-  TurnSpeed: 1.5
-  ReloadTime: 1
-  AngleAccuracy: 20
+  Damage: 20
+  Accuracy: 99
+  TurnSpeed: 3
+  ReloadTime: 0.3
+  AngleAccuracy: 15
